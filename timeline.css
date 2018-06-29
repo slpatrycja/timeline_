@@ -1,0 +1,110 @@
+#canvas1{
+
+}
+.container{
+    background-image: url('tlo2.jpg');
+    /* Full height */
+    height: 100%;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_right{
+    width:400;
+    float:right;
+    margin:0;
+    padding:0;
+}
+
+.container_left{
+    width:400;
+    float:left;
+    margin:0;
+    padding:0;
+}
+#canvas1 {
+    margin-left:450px;
+    position: fixed;
+    
+}
+
+#firstbox{
+    width:250;
+    height:130;
+    float:right;
+    margin:20px;
+    margin-right:50px;
+    text-align: center;
+   display: none;
+   border:grey 2px solid;
+   
+}
+
+#secondbox{
+    width:250;
+    height:130;
+    float:left;
+    margin-left:50px;
+    margin-top: 60px;
+    text-align: center;
+    display:none;
+    border:grey 2px solid;
+}
+
+
+#thirdbox{
+    width:250;
+    height:130;
+    margin-top:170px;
+    margin-right:20px;
+    text-align: center;
+    display:none;
+    border:grey 2px solid;
+}
+
+#fourthbox{
+    width:250;
+    height:130;
+    float:left;
+    margin-left:140px;
+    margin-top: 20px;
+    text-align: center;
+    display:none;
+    border:grey 2px solid;
+}
+#fifthbox{
+    width:500;
+    height:100;
+    margin-left:300px;
+    margin-top:450px;
+    position: fixed;
+    text-align:center;
+    display:none;
+    border:grey 2px solid;
+}
+
+#footer{
+    width:350;
+    height:40;
+    margin-left:400px;
+    margin-top:20px;
+    margin-bottom:13px;
+    position: fixed;
+    text-align:center;  
+    border:grey 2px solid;
+}
+
+#title{
+    width:350;
+    height:40;
+    margin-left:375px;
+    margin-top:5px;
+    margin-bottom:13px;
+    position: fixed;
+    text-align:center;
+    border:grey 2px solid;
+    display:none;
+}
